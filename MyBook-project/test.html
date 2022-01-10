@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Yadav</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <table class="centre">
+            <tr>
+                <td>
+                    <img src="./Images/book-image.png" alt="">
+                </td>
+                <td><h1 id="main-head">MyBookList</h1></td>
+            </tr>
+        </table>
+    </div>
+    <form action="" class="form">
+        <div class="form-group">
+            <label for="name">Name of Book</label>
+            <blockquote></blockquote>
+            <input type="text" id="name">
+        </div>
+        <div class="form-group">
+            <label for="author">Author of Book</label>
+            <blockquote></blockquote>
+            <input type="text" id="author">
+        </div>
+        <div class="form-group">
+            <label for="ISBN">ISBN#</label>
+            <blockquote></blockquote>
+            <input type="number" id="ISBN">
+        </div>
+            <button type="submit" id="submit">Add Book</button>
+    </form>
+    <table class="table">
+        <thead>
+            <th>Name of Book</th>
+            <th>Author</th>
+            <th>ISBN#</th>
+            <th></th>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+    <script src="./test_java.js"></script>
+</body>
+</html>

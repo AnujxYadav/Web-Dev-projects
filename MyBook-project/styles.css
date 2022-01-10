@@ -1,0 +1,107 @@
+body {
+    background-image: url('./Images/bg-image.jpg');
+}
+
+#main-head {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 71px;
+    color: rgb(71, 57, 52);
+    margin-left: 40px;
+}
+#submit {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#alert_label {
+    margin: 100px;
+    color: white;
+    background-color: red;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#success_label {
+    margin: 100px;
+    color: white;
+    background-color: green;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#remove_label {
+    margin: 100px;
+    color: white;
+    background-color: blue;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.container {
+    width:80%;
+	margin:auto;
+}
+
+.centre {
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.form {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    border-radius:15px;
+    padding: 20px 0px;
+}
+
+.form .form-group {
+    padding-bottom: 15px;
+}
+
+.form input { 
+	padding:2px;
+	width:30%;
+    border-radius: 5px;
+    padding-bottom: 6px;
+}
+
+.form label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+}
+
+.table th {
+    padding-right: 150px;
+    padding-bottom: 7px;
+    background-color: rgb(186, 196, 196);
+}
+
+.table tr:nth-child(even)
+{  
+    background-color: rgb(198, 241, 225);
+}
+
+.table tr:nth-child(odd)
+{  
+    background-color: rgb(192, 218, 208);
+}
+
+.table {
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.cross-button{
+    background-image: url('./Images/cross-button.png');
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+}
+
